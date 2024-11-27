@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* COMMENTAAR: grijs #899CA0 en donkergroen  */
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
+
     1. Global Styles
     2. Typografie
     3. Areas
@@ -22,28 +30,168 @@ Table of Contents:
     2. Typography
 ////////////////////////*/
 
-
+body {
+    font-family: "Poppins", sans-serif;
+}
 
 /*////////////////////////
     3. Areas
 ////////////////////////*/
+.testo {
+    margin: 50px auto;
+    width: 550px;
+    height: 125px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 12px;
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+}
 
-
-
+.img {
+    width: 44px;
+    height: 44px;
+    vertical-align: left;
+}
+.span {
+    font-size: 10px;
+}
+.icon {
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+.last {
+    padding: 15px;
+}
+.cite {
+    padding: 20px;
+    font-size: 10px;
+    text-align: left;
+}
 /*///////////// 3.1 Header /////////////*/
 
+header {
+    max-width: 1000px;
+    text-align: center;
+    background-image: url("../assets/images/mountains.jpg");
+    background-position: center;
+    height: 400px;
+}
+.header {
+}
+.title {
+    margin-bottom: 5px;
+    font-size: 60px;
+}
+.paragraph {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+.form {
+    max-width: 400px;
+    margin-left: 325px;
+}
+.button {
+    border-radius: 0 15px 15px 0;
+    font-family: inherit;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
 
+}
+#website-field .button {
+    display: inline-block;
+    vertical-align: middle;
+}
+.input {
+    white-space: nowrap;
+    border-block: none;
+    border-inline: none;
+    margin-left: -100px;
+}
 
+#website-field
+{
+    border-radius: 15px 0 0 15px;
+    font-family: inherit;
+    padding: 5px;
+    margin-right: -5px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+
+}
 /*///////////// 3.2 Testimonial /////////////*/
-
-
+main {
+    max-width: 1000px;
+    margin: 15px 200px 15px 200px;
+    text-align: center;
+}
 
 /*///////////// 3.3 Support /////////////*/
-
-
-
+.customer-opinion {
+}
+.we-are-there {
+}
+.callcenter {
+    width: 100%;
+    margin-top: 15px;
+}
+.botton {
+    border-radius: 20px 20px 20px 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #1C2B32;
+    color: white;
+    font-size: 8px;
+    margin-right: 400px;
+    cursor: pointer;
+}
+.figcaption {
+    font-size: 8px;
+    margin-left: -40px;
+    padding-block: 10px;
+}
+.link {
+    color: #899CA0;
+    text-decoration: underline;
+}
+.link:hover {
+    text-decoration: none;
+}
 /*///////////// 3.4 Faq /////////////*/
+.h4 {
+    margin: 15px;
+    text-align: center;
+}
+.faq {
+    font-size: 10px;
+    background-color: #899CA0;
+    border-radius: 15px 15px 15px 15px;
+    padding: 8px;
+    color: white;
+}
+.summary {
+    font-size: 10px;
+    cursor: pointer;
+}
 
-
-
+.last-section {
+    text-align: left;
+}
+details {
+    margin: 15px;
+}
 /*///////////// 3.5 Footer /////////////*/
+footer{
+    background-color: #1C2B32;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+
+
+}
